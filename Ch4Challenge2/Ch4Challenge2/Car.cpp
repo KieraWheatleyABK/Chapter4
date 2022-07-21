@@ -34,5 +34,5 @@ void Car::Display()
 
 void Car::Drive(int miles)
 {
-	m_miles = m_miles + miles;
+	m_miles += miles;
 }

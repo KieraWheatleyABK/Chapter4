@@ -1,14 +1,14 @@
 #pragma once
 #include "Vehicle.h"
 
-class Car : public Vehicle
+class Airplane : public Vehicle
 {
 public:
     // constructors
-    Car();
-    Car(int year, int miles, string brand) :
+    Airplane();
+    Airplane(int year, int miles, string brand) :
         Vehicle(year, miles, brand) {}
 
     // destructor
-    virtual ~Car();
+    virtual ~Airplane();
 };
